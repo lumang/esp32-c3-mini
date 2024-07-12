@@ -1,3 +1,7 @@
+# 项目介绍
+
+[英文介绍](./README_en.md)
+
 # 修改platformio配置
 > -D SDL_INCLUDE_PATH="\"C:/Users/SDL2/include/SDL.h\"" ; Windows
 
