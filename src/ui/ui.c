@@ -2950,7 +2950,7 @@ void ui_errorWindow_init(void)
 
       lv_obj_add_event_cb(ui_errorClose, ui_event_errorClose, LV_EVENT_ALL, NULL);
 }
-
+// ui 初始化
 void ui_init(void)
 {
       lv_disp_t *dispp = lv_disp_get_default();

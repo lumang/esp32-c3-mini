@@ -163,7 +163,7 @@ void ui_event_roadPanel(lv_event_t *e)
             isRacing = false;
             if (!gameOver)
             {
-                lv_label_set_text(ui_raceButtonText, "Continue");
+                lv_label_set_text(ui_raceButtonText, "Continue2");
                 lv_label_set_text(ui_raceLabel, "Paused");
                 lv_label_set_text_fmt(ui_raceScore, "%dm", currentScore);
                 lv_obj_add_flag(ui_raceInfo, LV_OBJ_FLAG_HIDDEN); /// Flags

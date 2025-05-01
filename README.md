@@ -16,3 +16,5 @@
 ![运行效果](./emulator_windows_pc.png)
 
 通过鼠标拖动切换页面
+
+通过PIO 编译 看ini 文件配置 

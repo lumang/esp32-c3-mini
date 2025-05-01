@@ -4,6 +4,13 @@
         "75_2_dial.h": "c",
         "radar.h": "c",
         "79_2_dial.h": "c",
-        "racing.h": "c"
+        "racing.h": "c",
+        "cstddef": "c",
+        "string": "c",
+        "optional": "c",
+        "limits": "c",
+        "memory": "c",
+        "new": "c",
+        "type_traits": "c"
     }
 }
