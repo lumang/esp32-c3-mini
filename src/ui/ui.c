@@ -1184,12 +1184,17 @@ void setWeatherIcon(lv_obj_t *obj, int id, bool day)
 {
       lv_img_set_src(obj, day ? weatherIcons[getWeatherIconIndex(id)] : weatherNtIcons[getWeatherIconIndex(id)]);
 }
-
+/// @brief 设置通知图标
+/// @param obj 图标对象
+/// @param appId 通知id
 void setNotificationIcon(lv_obj_t *obj, int appId)
 {
       lv_img_set_src(obj, notificationIcons[getNotificationIconIndex(appId)]);
 }
-
+/// @brief app 列表
+/// @param appName app 名称
+/// @param index app index, used for click event
+/// @param img   图片
 void add_appList(const char *appName, int index, const void *img)
 {
       lv_obj_t *ui_appListPanel = lv_obj_create(ui_appList);
